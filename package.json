@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "dev": "npm --prefix project run dev",
-    "build": "npm --prefix project run build",
+    "build": "npm install --prefix project && npm --prefix project run build",
     "preview": "npm --prefix project run preview",
     "lint": "npm --prefix project run lint"
   },
